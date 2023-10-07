@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 3rem 0;
+  background-image: linear-gradient(rgb(211, 254, 175), rgb(168, 255, 87));
+}
+.login-form {
+  background: white;
+  height: 600px;
+  width: 400px;
+  padding: 2rem;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+.login-form p {
+  text-align: center;
+}
+.form-name,
+.form-email,
+.form-password,
+.confirm-password {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 10px 25px;
+  font-size: 50px;
+  text-align: center;
+}

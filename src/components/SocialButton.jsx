@@ -7,9 +7,9 @@ const SocialButton = ({ facebook, github, linkedin }) => {
         <h2>Crea una cuenta</h2>
       </div>
       <div className="social-button">
-        <p className="icon">{facebook}</p>
-        <p className="icon">{github}</p>
-        <p className="icon">{linkedin}</p>
+        <div className="icon">{facebook}</div>
+        <div className="icon">{github}</div>
+        <div className="icon">{linkedin}</div>
       </div>
       <p>O usa tu email para registrarte</p>
     </div>

@@ -1,4 +1,4 @@
-const validateName = (name) => {
+const regexName = (name) => {
   const rgx = /^[a-zA-Z\s]*$/;
 
   if (rgx.test(name)) {
@@ -8,7 +8,7 @@ const validateName = (name) => {
   return false;
 };
 
-const validateEmail = (email) => {
+const regexEmail = (email) => {
   const rgx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
   if (rgx.test(email)) {
@@ -18,7 +18,7 @@ const validateEmail = (email) => {
   return false;
 };
 
-const sendSubscriptionForm = (name, email) => {
+const register = (name, email) => {
   const request = {
     url: "sampleurl.com/api/subscription",
     method: "POST",
@@ -28,4 +28,4 @@ const sendSubscriptionForm = (name, email) => {
   console.log(request);
 };
 
-export { validateName, validateEmail, sendSubscriptionForm };
+export { regexName, regexEmail, register };

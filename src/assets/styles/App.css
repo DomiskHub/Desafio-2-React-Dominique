@@ -1,123 +1,123 @@
 .main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  padding: 3rem 0;
-  background-image: linear-gradient(#e5fd86, #a6ffaf);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	padding: 3rem 0;
+	background-color: black;
 }
 .login-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: white;
-  height: 600px;
-  width: 400px;
-  padding: 2rem;
-  border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: white;
+	height: 600px;
+	width: 400px;
+	padding: 2rem;
+	border-radius: 30px;
 }
 
 .login-form h2 {
-  text-align: center;
-  margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 .login-form p {
-  text-align: center;
-  margin-top: 10px;
+	text-align: center;
+	margin-top: 10px;
 }
 .form-name,
 .form-email,
 .form-password,
 .confirm-password {
-  text-align: center;
-  margin: 30px;
-  font-size: 20px;
+	text-align: center;
+	margin: 30px;
+	font-size: 20px;
 }
 
 .social-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
 }
 
 .icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 60px;
-  min-height: 60px;
-  font-size: 30px;
-  border: 1px solid black;
-  border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 60px;
+	min-height: 60px;
+	font-size: 30px;
+	border: 1px solid black;
+	border-radius: 50%;
 }
 
 input {
-  border-radius: 5px;
-  border: 1px solid #ababab;
+	border-radius: 5px;
+	border: 1px solid #ababab;
 }
 
 .error {
-  background-color: rgba(221, 24, 24, 0.183);
-  color: rgb(144, 18, 18);
-  border-radius: 5px;
+	background-color: rgba(221, 24, 24, 0.183);
+	color: rgb(144, 18, 18);
+	border-radius: 5px;
 }
 
 .alert {
-  background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  visibility: hidden;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
 }
 
 .alert.show {
-  visibility: visible;
+	visibility: visible;
 }
 
 .alert .content {
-  background: rgb(255, 255, 255);
-  padding: 2rem;
-  width: 90%;
-  max-width: 600px;
-  border-radius: 10px;
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transform: translateY(50%);
+	background: rgb(255, 255, 255);
+	padding: 2rem;
+	width: 90%;
+	max-width: 600px;
+	border-radius: 10px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transform: translateY(50%);
 }
 
 .alert.show .content {
-  transition: all 0.2s ease-in-out;
-  opacity: 1;
-  transform: translateY(0);
+	transition: all 0.2s ease-in-out;
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .alert .content h2 {
-  margin-bottom: 1.5rem;
-  text-transform: capitalize;
+	margin-bottom: 1.5rem;
+	text-transform: capitalize;
 }
 
 .alert .content p {
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 2rem;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .alert .content .button-row {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .alert .content .button-row button {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
